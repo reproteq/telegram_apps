@@ -1,0 +1,40 @@
+Scripts de Telegram
+Este repositorio contiene scripts desarrollados con Telethon para interactuar con la API de Telegram. Los scripts están diseñados para realizar diversas tareas automatizadas, como la gestión de grupos, la descarga de contenido multimedia, el análisis de mensajes, entre otros.
+
+Contenido del Repositorio
+desc_telegram-media.py: Script para descargar imágenes desde un grupo de Telegram específico.
+otro_script.py: Otro script de ejemplo para realizar alguna tarea específica.
+ejemplo_interaccion.py: Ejemplo de script para interactuar con los mensajes de Telegram.
+Requisitos Previos
+Antes de ejecutar los scripts en este repositorio, asegúrate de tener instalado lo siguiente:
+
+Python 3.x
+Telethon (pip install telethon)
+Configuración
+Obtener credenciales de API de Telegram:
+
+Ve a my.telegram.org y crea una nueva aplicación.
+Copia el api_id, api_hash, y tu número de teléfono registrado.
+Configuración del entorno:
+
+Abre el archivo desc_telegram-media.py (o cualquier script relevante).
+Reemplaza 'YOUR_API_ID', 'YOUR_API_HASH', y 'YOUR_PHONE_NUMBER' con tus credenciales obtenidas.
+Uso
+Ejecución de Scripts:
+
+Abre una terminal o línea de comandos.
+Navega al directorio donde se encuentra el script (cd ruta/al/repo).
+Ejecuta el script deseado usando Python: python desc_telegram-media.py.
+Interacción con Telegram:
+
+Sigue las instrucciones y mensajes de salida del script para interactuar con la API de Telegram y realizar las acciones deseadas.
+Notas Adicionales
+Documentación de Telethon: Para obtener más información sobre Telethon y su uso, consulta la documentación oficial.
+Advertencia de Uso: Ten en cuenta las políticas de uso de Telegram al automatizar interacciones con la API. No abuses de las solicitudes para evitar posibles suspensiones de cuenta.
+Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes algún script útil o mejoras para los existentes, siéntete libre de abrir un problema o enviar una solicitud de extracción (pull request).
+
+Licencia
+Este repositorio está bajo la licencia MIT. Puedes modificar y distribuir el código fuente bajo los términos de esta licencia.
+
+Asegúrate de personalizar y ajustar este README según las especificaciones y el contenido específico de tu repositorio de scripts de Telegram. Esto proporcionará a los usuarios una guía clara sobre cómo usar, configurar y contribuir a los scripts, así como información importante sobre los requisitos y la licencia del repositorio.
