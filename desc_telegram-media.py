@@ -4,8 +4,9 @@
 #instalar telthon con ejecutando : pip install telethon
 #identifica el nombre del grupo desde :https://web.telegram.org/#/im?p=Els astronautes Liles Inf.5B
 #Ejemplo: Els astronautes Liles Inf.5B es el id:963062987
-#Crea y obten tus credenciales desde: https://my.telegram.org/
-# Credenciales API de Telegram
+#Crea una app para poder obtener credenciales desde: https://my.telegram.org/
+#Guarda los datos para poder agregarlos al script : https://my.telegram.org/apps
+#Credenciales API de Telegram
 #api_id = 'YOUR_API_ID'
 #api_hash = 'YOUR_API_HASH'
 #phone = 'YOUR_PHONE_NUMBER'
