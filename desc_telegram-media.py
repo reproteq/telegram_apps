@@ -1,20 +1,27 @@
 #reproteq codigo para descargar todas las fotos de un grupo de telegram.
-#intalar python y pip , luego instalar telthon con : pip install telethon
-# https://web.telegram.org/#/im?p=Els astronautes Liles Inf.5B
-#963062987
+#instalar python
+#instalar pip ,Ve a https://bootstrap.pypa.io/get-pip.py Guarda el archivo get-pip.py luego instalar ejecutando : python get-pip.py 
+#instalar telthon con ejecutando : pip install telethon
+#identifica el nombre del grupo desde :https://web.telegram.org/#/im?p=Els astronautes Liles Inf.5B
+#Ejemplo: Els astronautes Liles Inf.5B es el id:963062987
+#Crea y obten tus credenciales desde: https://my.telegram.org/
+# Credenciales API de Telegram
+#api_id = 'YOUR_API_ID'
+#api_hash = 'YOUR_API_HASH'
+#phone = 'YOUR_PHONE_NUMBER'
+
+#Por ultimo ejecuta este script: python desc_telegram-media.py
+
 from telethon import TelegramClient, sync, events
 from telethon.tl.functions.messages import GetHistoryRequest
 from telethon.tl.types import InputMessagesFilterPhotos
 import os
  
 # Credenciales API de Telegram
-#api_id = 'YOUR_API_ID'
-
-
-#api_hash = 'YOUR_API_HASH'
-
-#phone = 'YOUR_PHONE_NUMBER'
-
+# Reemplaza estos valores con los que obtuviste de my.telegram.org
+api_id = 1234567  # Asegúrate de que este sea un número entero
+api_hash = 'abcd1234efgh5678ijkl'  # Asegúrate de que este sea una cadena
+phone = '+3434567890'  # Asegúrate de que este sea tu número de teléfono, incluyendo el código de país +34 para spain
 
 
 # ID numérico del grupo que deseas obtener
